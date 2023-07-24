@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "652761494702",
+    "project_id": "fir-email-password-auth-8efd4",
+    "storage_bucket": "fir-email-password-auth-8efd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652761494702:android:a6d6f807f2379dfcf1a93f",
+        "android_client_info": {
+          "package_name": "com.sangyoon.fb_firebase_email_password_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652761494702-3tompr3oj86lirnt3kos9a5nqj1j13se.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-_FNEsiui8adfoYqUCc6ilRqg0lUy_Lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652761494702-3tompr3oj86lirnt3kos9a5nqj1j13se.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

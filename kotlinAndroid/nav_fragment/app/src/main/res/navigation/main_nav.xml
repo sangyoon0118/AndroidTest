@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/firstFragment3">
+
+    <fragment
+        android:id="@+id/firstFragment3"
+        android:name="com.sangyoon.nav_fragment.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment3_to_secondFragment3"
+            app:destination="@id/secondFragment3" />
+        <action
+            android:id="@+id/action_firstFragment3_to_thirdFragment3"
+            app:destination="@id/thirdFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment3"
+        android:name="com.sangyoon.nav_fragment.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment3_to_firstFragment3"
+            app:destination="@id/firstFragment3" />
+        <action
+            android:id="@+id/action_secondFragment3_to_thirdFragment3"
+            app:destination="@id/thirdFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFragment3"
+        android:name="com.sangyoon.nav_fragment.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_thirdFragment3_to_firstFragment3"
+            app:destination="@id/firstFragment3" />
+        <action
+            android:id="@+id/action_thirdFragment3_to_secondFragment3"
+            app:destination="@id/secondFragment3" />
+    </fragment>
+</navigation>
